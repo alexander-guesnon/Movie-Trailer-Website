@@ -1,11 +1,13 @@
-#TODO edit fresh_tomatoes css and html to be more personal
 #TODO prefect the code to follow googles style guide
-
-#take in class movie and fresh_tomatoes
 import media
 import fresh_tomatoes
 
-# shove all 6 of thos movies into a array
+
+'''
+ This is an array of Movie objects its more effecient to store it in array rather
+ than name individual instance varables for each movie.
+
+'''
 movie_list = [
 media.Movie("The Punisher (1989)"," https://upload.wikimedia.org/wikipedia/en/c/c7/Punisher89poster.jpg","https://www.youtube.com/watch?v=umYvv7K4Z_I"),
 media.Movie("Goodfellas", "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg", "https://www.youtube.com/watch?v=2ilzidi_J8Q"),
@@ -15,31 +17,5 @@ media.Movie("The Godfather", "https://upload.wikimedia.org/wikipedia/en/1/1c/God
 media.Movie("The Matrix", "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg", "https://www.youtube.com/watch?v=vKQi3bBA1y8")
 ]
 
-# make 6 of my favorit movies acording to the constructor
-
-#Punisher
-
-#goodfellas
-'''
-
-'''
-#Hackers
-'''
-
-'''
-#Jaws
-'''
-
-'''
-#The Godfather
-'''
-
-'''
-#The Matrix
-'''
-
-'''
-
-#send that array to the fresh_tomatoes.py through open_movies_page()
 # fresh toamatos takes the movie list and turns it into a web page.
 fresh_tomatoes.open_movies_page(movie_list)
