@@ -1,8 +1,9 @@
-#somthing
 #class movie
-
-#documention
-
-#constructor
-
-#show_trailer
+class Movie:
+    #documention
+    """
+    test
+    """
+    #constructor
+    def __init__(self):
+    #show_trailer
