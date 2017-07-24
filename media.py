@@ -1,4 +1,5 @@
-#class movie
+import webbrowser
+
 class Movie:
     #documention
     """
@@ -14,5 +15,5 @@ class Movie:
 
     #show_trailer
     def show_trailer(self):
-        
+        webbrowser.open_new(self.trailer)
 #end of movie class
