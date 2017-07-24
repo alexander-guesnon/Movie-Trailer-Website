@@ -16,7 +16,7 @@ This is my first project for the full stack developer course on Udacity.
 * python 2.7 - newer
 * Web browser
 ###  Running
-Lanunch a terminal in the Movie-Trailer-Website directory. Then run the following.
+Launch a terminal in the Movie-Trailer-Website directory. Then run the following.
 ~~~
 python entertaiment-center.py
 ~~~
